@@ -1,0 +1,59 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  min-height: 100vh;
+}
+
+.topNav {
+  background-color: #003c71;
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  gap: 1rem;
+  padding: 0 9rem;
+  font-family: Arial,sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.mainNav {
+  display: flex;
+  align-items: center;
+  height: 120px;
+  color: #003c71;
+  padding: 0 9rem;
+  gap: 2rem;
+  font-family: Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.searchbox {
+  width: 30rem;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.input {
+  width: 20rem;
+}
+
+.topBody {
+  background-color: #003c71;
+  height: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  gap: 1rem;
+  padding: 0 9rem;
+  font-family: Arial,sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+}
