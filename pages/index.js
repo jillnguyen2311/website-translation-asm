@@ -65,8 +65,16 @@ export default function Home({ dir }) {
 
       <main dir={dir}>
 
-        <header className={styles.lang}>
-          <h3>LANGUAGE: </h3>
+        <div className={styles.intro}>
+          <h1>
+            <FormattedMessage id="page.home.title" values={{ b: (info) => <b>{info}</b> }} />
+          </h1>
+          <p>
+            <FormattedMessage id="page.home.description" />
+          </p>
+
+          <header className={styles.lang}>
+          <h1>LANGUAGE: </h1>
           <div>
             {[...locales].sort().map((locale) => (
               <Link key={locale} href="/" locale={locale}>
@@ -76,13 +84,6 @@ export default function Home({ dir }) {
           </div>
         </header>
 
-        <div className={styles.intro}>
-          <h1>
-            <FormattedMessage id="page.home.title" values={{ b: (info) => <b>{info}</b> }} />
-          </h1>
-          <p>
-            <FormattedMessage id="page.home.description" />
-          </p>
         </div>
 
         <div className={styles.mainBody}>

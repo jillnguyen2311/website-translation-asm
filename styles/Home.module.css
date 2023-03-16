@@ -23,6 +23,9 @@
 
 .lang {
   display: flex;
+  text-align: center;
+  font-size:smaller;
+  padding-left: -15rem;
   flex-direction: column;
   margin-left: 14rem;
 }
@@ -268,27 +271,55 @@
 
 @media only screen and (max-width: 414px) {
   .mainBody {
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     font-size: 5px;
-    margin-left: -20rem;
+    margin-left: -17rem;
   }
 
-  .topNav, .mainNav, .mainBody, .underNav, .footer {
+  .topNav, .mainNav, .underNav {
     font-size: 30%;
-    margin-left: -20rem;
+    margin-left: -11rem;
+    font-size: 5px;
     flex-wrap: wrap;
   }
 
   .underNav {
-    position: relative;
-    height: 100px;
-    padding-left: -10rem;
+    height: 200px;
+    padding-left: -7rem;
+    flex-wrap: wrap;
+    font-size: 5px;
   }
 
   .topNav {
     font-size: 30%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     margin-left: -30rem;
+    font-size: 5px;
+  }
+
+  .lang {
+    margin-left: -7rem;
+  }
+
+  .intro {
+    flex-wrap: wrap;
+    font-size: smaller;
+    margin-left: -7rem;
+    padding: 6rem;
+  }
+
+  .mainNav {
+    background: rgba(255,255,255,0);
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 5px;
   }
 }
