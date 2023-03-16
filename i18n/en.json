@@ -2,5 +2,6 @@
     "page.home.head.title": "BCIT page translation",
     "page.home.head.meta.description": "BCIT page translation - English",
     "page.home.title": "Welcome to <b>the D3 page</b>",
-    "page.home.description": "You are currently viewing the D3 page in english"
+    "page.home.description": "You are currently viewing the D3 page in english",
+    "page.home.img":"/eng-img.png"
 }
