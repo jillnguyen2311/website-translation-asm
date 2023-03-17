@@ -1,3 +1,11 @@
+.langconvert {
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding:3rem -7rem;
+}
+
 .flex {
   display: flex;
 }
@@ -44,7 +52,7 @@
   justify-content: flex-end;
   align-items: center;
   color: white;
-  gap: 1rem;
+  gap: 3rem;
   padding: 0 14rem;
   font-family: Arial, sans-serif;
   font-size: 13px;
@@ -309,7 +317,8 @@
     flex-wrap: wrap;
     font-size: smaller;
     margin-left: -7rem;
-    padding: 6rem;
+    padding-top: 7rem;
+    margin-top: 4rem;
   }
 
   .mainNav {
